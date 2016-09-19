@@ -5,7 +5,7 @@ USE codeup_test_db;
 SELECT 'Album Names' AS 'Info'\G
 SELECT name FROM albums;
 UPDATE albums
-	SET sales = sales * 100;
+	SET sales = sales * 10;
 
 -- All albums released before 1980
 -- Move all the albums before 1980 back to the 1800s.

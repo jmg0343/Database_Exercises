@@ -21,9 +21,8 @@ GROUP BY title;
  Etalle
 UPDATE your previous QUERY TO now find UNIQUE combinations of FIRST AND LAST NAME WHERE the LAST NAME STARTS AND ENDS WITH 'E'. You should get 846 rows. 
 */
-SELECT last_name FROM employees WHERE last_name LIKE '%e'
-	AND last_name LIKE 'e%'
-	GROUP BY last_name;
+SELECT last_name FROM employees WHERE last_name LIKE 'e%e'
+GROUP BY last_name;
 
 
 
